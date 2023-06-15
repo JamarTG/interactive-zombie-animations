@@ -29,7 +29,6 @@ let isGenderMale = true;
 let activeAnimation = animations.walk;
 const changeAction = (action) => {
     activeAnimation = animations[action];
-    // Needs to be done or the animation will continue using the last frameIndex value [Big Brain]
     frameIndex = 1;
 };
 const changeGender = () => {
